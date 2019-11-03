@@ -4,7 +4,7 @@ CompanyXPO Sample provides a custom solution based on Toggle Service.
 
 ## Layers's Diagram
 
-   ![Layers's diagram](/Diagrams/Diagram.png)
+   ![Layers's diagram](/Diagrams/LayersDiagram.png)
 
 
 ## Class Diagrams
@@ -21,7 +21,7 @@ CompanyXPO Sample provides a custom solution based on Toggle Service.
 
 ### DataAccess's Diagram
 
- ![DataAccess's diagram](/Diagrams/DataDiagram.png)
+ ![DataAccess's diagram](/Diagrams/DataAccessDiagram.png)
 
 
 # Docs
