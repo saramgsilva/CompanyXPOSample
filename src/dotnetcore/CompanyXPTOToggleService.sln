@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompanyXPTOToggleService.Platform", "CompanyXPTOToggleService.Platform\CompanyXPTOToggleService.Platform.csproj", "{DE6AC079-A1F9-41B5-92C8-B2443CD6BBD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyXPTO.ToggleService.Model", "CompanyXPTO.ToggleService.Model\CompanyXPTO.ToggleService.Model.csproj", "{29EDF944-287F-4944-BA46-58310A6F2B40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyXPTO.ToggleService.Dtos", "CompanyXPTO.ToggleService.Dtos\CompanyXPTO.ToggleService.Dtos.csproj", "{B30943CC-B386-4500-850D-01598538C727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyXPTO.ToggleService.DataAccess", "CompanyXPTO.ToggleService.DataAccess\CompanyXPTO.ToggleService.DataAccess.csproj", "{91DD31C0-2127-412E-B931-DEE0C7A42D0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyXPTO.ToggleService.Core", "CompanyXPTO.ToggleService.Core\CompanyXPTO.ToggleService.Core.csproj", "{979C93B0-C072-40FF-B0FF-2AC153294A3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyXPTO.ToggleService.Migrations", "CompanyXPTO.ToggleService.Migrations\CompanyXPTO.ToggleService.Migrations.csproj", "{69B66BC5-964C-47F3-AF0C-1FD390DF48CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE6AC079-A1F9-41B5-92C8-B2443CD6BBD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE6AC079-A1F9-41B5-92C8-B2443CD6BBD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE6AC079-A1F9-41B5-92C8-B2443CD6BBD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6AC079-A1F9-41B5-92C8-B2443CD6BBD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29EDF944-287F-4944-BA46-58310A6F2B40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29EDF944-287F-4944-BA46-58310A6F2B40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29EDF944-287F-4944-BA46-58310A6F2B40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29EDF944-287F-4944-BA46-58310A6F2B40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B30943CC-B386-4500-850D-01598538C727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30943CC-B386-4500-850D-01598538C727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30943CC-B386-4500-850D-01598538C727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30943CC-B386-4500-850D-01598538C727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DD31C0-2127-412E-B931-DEE0C7A42D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DD31C0-2127-412E-B931-DEE0C7A42D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DD31C0-2127-412E-B931-DEE0C7A42D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DD31C0-2127-412E-B931-DEE0C7A42D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979C93B0-C072-40FF-B0FF-2AC153294A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979C93B0-C072-40FF-B0FF-2AC153294A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979C93B0-C072-40FF-B0FF-2AC153294A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979C93B0-C072-40FF-B0FF-2AC153294A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69B66BC5-964C-47F3-AF0C-1FD390DF48CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69B66BC5-964C-47F3-AF0C-1FD390DF48CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69B66BC5-964C-47F3-AF0C-1FD390DF48CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69B66BC5-964C-47F3-AF0C-1FD390DF48CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1B0944E-19C6-448A-BEE7-C2E9277E97B5}
+	EndGlobalSection
+EndGlobal

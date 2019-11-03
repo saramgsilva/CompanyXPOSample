@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CompanyXPTO.ToggleService.DataAccess\CompanyXPTO.ToggleService.DataAccess.csproj" />
+    <ProjectReference Include="..\CompanyXPTO.ToggleService.Dtos\CompanyXPTO.ToggleService.Dtos.csproj" />
+    <ProjectReference Include="..\CompanyXPTO.ToggleService.Model\CompanyXPTO.ToggleService.Model.csproj" />
+  </ItemGroup>
+
+</Project>
