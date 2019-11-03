@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CompanyXPTO.ToggleService.Core.ApplicationBusinessManager">
+    <Position X="0.75" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQABIAAAAiAAAAAAiAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationBusinessManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CompanyXPTO.ToggleService.Core.ToggleBusinessManager">
+    <Position X="3.5" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAIAAAAAAAAEAAAiAAAAAAgAAAAwAAAAAAAAgAAAA=</HashCode>
+      <FileName>ToggleBusinessManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CompanyXPTO.ToggleService.Core.ContainerManager">
+    <Position X="6.25" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>ContainerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CompanyXPTO.ToggleService.Core.Interfaces.IApplicationBusinessManager">
+    <Position X="0.75" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAiAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IApplicationBusinessManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CompanyXPTO.ToggleService.Core.Interfaces.IToggleBusinessManager">
+    <Position X="3.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAEAAAAAAAAAAgAAAAQAAAAAAAAgAAAA=</HashCode>
+      <FileName>Interfaces\IToggleBusinessManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

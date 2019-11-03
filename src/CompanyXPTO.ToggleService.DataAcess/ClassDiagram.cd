@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CompanyXPTO.ToggleService.DataAccess.ToogleServiceContext">
+    <Position X="10" Y="0.5" Width="2.25" />
+    <Members>
+      <Method Name="OnModelCreating" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAgAEAAJAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ToogleServiceContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompanyXPTO.ToggleService.DataAccess.Repositories.ToogleRepository">
+    <Position X="1.25" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\ToogleRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompanyXPTO.ToggleService.DataAccess.Repositories.RepositoryFactory">
+    <Position X="7" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\RepositoryFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CompanyXPTO.ToggleService.DataAccess.Repositories.ApplicationRepository">
+    <Position X="4.25" Y="7.25" Width="2" />
+    <Members>
+      <Field Name="_context" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\ApplicationRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompanyXPTO.ToggleService.DataAccess.Repositories.ToggleConfigRepository">
+    <Position X="6.75" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\ToggleConfigRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompanyXPTO.ToggleService.DataAccess.Migrations.Configuration">
+    <Position X="9.75" Y="7.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Migrations\Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompanyXPTO.ToggleService.DataAccess.Data.ToggleBuilder">
+    <Position X="12.25" Y="3.75" Width="2.25" />
+    <Members>
+      <Field Name="_toggle" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAQAQAAEAAAAAAAIAAAAoAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ToggleBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompanyXPTO.ToggleService.DataAccess.Data.SeedConfig">
+    <Position X="12.25" Y="7.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAEAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Data\SeedConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompanyXPTO.ToggleService.DataAccess.Data.ApplicationBuilder">
+    <Position X="10" Y="3.75" Width="2" />
+    <Members>
+      <Field Name="_application" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAEAAAEAAAAAAAAAAAAoAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\ApplicationBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompanyXPTO.ToggleService.DataAccess.Repositories.Repository&lt;TEntity&gt;">
+    <Position X="4.5" Y="3.5" Width="1.5" />
+    <Members>
+      <Field Name="_context" Hidden="true" />
+      <Field Name="_dbSet" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAACAABABAAAAAIAAAAAEAAAAAAAAAIACAAIA=</HashCode>
+      <FileName>Repositories\Repository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CompanyXPTO.ToggleService.DataAccess.Repositories.UnitOfWork&lt;T&gt;">
+    <Position X="0.5" Y="3" Width="1.75" />
+    <Members>
+      <Field Name="_disposed" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAACAEAAAAAAAAAAEAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\UnitOfWork.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="CompanyXPTO.ToggleService.DataAccess.Repositories.Interfaces.IRepositoryFactory">
+    <Position X="7" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Interfaces\IRepositoryFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CompanyXPTO.ToggleService.DataAccess.Repositories.Interfaces.IUnitOfWork&lt;T&gt;">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Interfaces\IUnitOfWork.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CompanyXPTO.ToggleService.DataAccess.Repositories.Interfaces.IRepository&lt;TEntity&gt;">
+    <Position X="4.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAABAAAAAAAAAAAEAAAAAAAAAIACAAIA=</HashCode>
+      <FileName>Repositories\Interfaces\IRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

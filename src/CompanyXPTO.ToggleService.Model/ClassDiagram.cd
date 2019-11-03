@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CompanyXPTO.ToggleService.Model.Toggle">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <AssociationLine Name="Configs" Type="CompanyXPTO.ToggleService.Model.ToggleConfig" FixedFromPoint="true">
+      <Path>
+        <Point X="2" Y="4.438" />
+        <Point X="3.5" Y="4.438" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Toggle.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Configs" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CompanyXPTO.ToggleService.Model.EntityBase">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAACAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EntityBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompanyXPTO.ToggleService.Model.ToggleConfig">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAABAAAAAAAQCAAAAAAAAAABAAAAAgAAAAAAA=</HashCode>
+      <FileName>ToggleConfig.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Application" />
+      <Property Name="Toggle" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CompanyXPTO.ToggleService.Model.Application">
+    <Position X="6.5" Y="3.5" Width="1.5" />
+    <AssociationLine Name="Configs" Type="CompanyXPTO.ToggleService.Model.ToggleConfig" FixedFromPoint="true">
+      <Path>
+        <Point X="6.5" Y="4.5" />
+        <Point X="5" Y="4.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Application.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Configs" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
